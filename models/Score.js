@@ -7,4 +7,4 @@ const ScoreSchema = mongoose.Schema({
   trivia_duration: { type: String, required: true },
 });
 
-module.exports = mongoose.model("Score", ScoreSchema);t
+module.exports = mongoose.model("Score", ScoreSchema);
